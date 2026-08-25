@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head><title>Incunabula — 15th and 16th century</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="Printing Press"/><meta property="og:title" content="Incunabula — 15th and 16th century"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Incunabula — 15th and 16th century"/><meta name="twitter:description" content="Incunabula Incunabula (singular: incunable or, less correctly, incunabulum; German: Wiegendrucke, literally “cradle-prints”) are books printed in Europe before 1 January 1501 — the infancy, or “swaddling clothes,” of the printing press."/><meta property="og:description" content="Incunabula Incunabula (singular: incunable or, less correctly, incunabulum; German: Wiegendrucke, literally “cradle-prints”) are books printed in Europe before 1 January 1501 — the infancy, or “swaddling clothes,” of the printing press."/><meta property="og:image:alt" content="Incunabula Incunabula (singular: incunable or, less correctly, incunabulum; German: Wiegendrucke, literally “cradle-prints”) are books printed in Europe before 1 January 1501 — the infancy, or “swaddling clothes,” of the printing press."/><meta property="og:image" content="https://rajeshb62.github.io/printing-press-wiki/static/og-image.png"/><meta property="og:image:url" content="https://rajeshb62.github.io/printing-press-wiki/static/og-image.png"/><meta name="twitter:image" content="https://rajeshb62.github.io/printing-press-wiki/static/og-image.png"/><meta property="og:image:type" content="image/.png"/><meta property="twitter:domain" content="rajeshb62.github.io/printing-press-wiki"/><meta property="og:url" content="https://rajeshb62.github.io/printing-press-wiki/concepts/incunabula"/><meta property="twitter:url" content="https://rajeshb62.github.io/printing-press-wiki/concepts/incunabula"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="Incunabula Incunabula (singular: incunable or, less correctly, incunabulum; German: Wiegendrucke, literally “cradle-prints”) are books printed in Europe before 1 January 1501 — the infancy, or “swaddling clothes,” of the printing press."/><meta name="generator" content="Quartz"/><link href="../index.css" rel="stylesheet" type="text/css" data-persist="true"/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL1VzZXJzL3JhamVzaGJoYXQvaGVybWVzL2hpc3RvcnkvX2RlcGxveWVyL3F1YXJ0ei9jb21wb25lbnRzL3N0eWxlcyIsInNvdXJjZXMiOlsibWVybWFpZC5pbmxpbmUuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTs7QUFHRjtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTs7O0FBS0Y7RUFDRTtFQUNBOzs7QUFJSjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTs7QUFHRjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTs7QUFHRjtFQUNFO0VBQ0E7O0FBSUo7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFOztBQUdGO0VBQ0U7O0FBSUY7RUFDRTtFQUNBO0VBQ0EiLCJzb3VyY2VzQ29udGVudCI6WyIuZXhwYW5kLWJ1dHRvbiB7XG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgZGlzcGxheTogZmxleDtcbiAgZmxvYXQ6IHJpZ2h0O1xuICBwYWRkaW5nOiAwLjRyZW07XG4gIG1hcmdpbjogMC4zcmVtO1xuICByaWdodDogMDsgLy8gTk9URTogcmlnaHQgd2lsbCBiZSBzZXQgaW4gbWVybWFpZC5pbmxpbmUudHNcbiAgY29sb3I6IHZhcigtLWdyYXkpO1xuICBib3JkZXItY29sb3I6IHZhcigtLWRhcmspO1xuICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1saWdodCk7XG4gIGJvcmRlcjogMXB4IHNvbGlkO1xuICBib3JkZXItcmFkaXVzOiA1cHg7XG4gIG9wYWNpdHk6IDA7XG4gIHRyYW5zaXRpb246IDAuMnM7XG5cbiAgJiA+IHN2ZyB7XG4gICAgZmlsbDogdmFyKC0tbGlnaHQpO1xuICAgIGZpbHRlcjogY29udHJhc3QoMC4zKTtcbiAgfVxuXG4gICY6aG92ZXIge1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICBib3JkZXItY29sb3I6IHZhcigtLXNlY29uZGFyeSk7XG4gIH1cblxuICAmOmZvY3VzIHtcbiAgICBvdXRsaW5lOiAwO1xuICB9XG59XG5cbnByZSB7XG4gICY6aG92ZXIgPiAuZXhwYW5kLWJ1dHRvbiB7XG4gICAgb3BhY2l0eTogMTtcbiAgICB0cmFuc2l0aW9uOiAwLjJzO1xuICB9XG59XG5cbiNtZXJtYWlkLWNvbnRhaW5lciB7XG4gIHBvc2l0aW9uOiBmaXhlZDtcbiAgY29udGFpbjogbGF5b3V0O1xuICB6LWluZGV4OiA5OTk7XG4gIGxlZnQ6IDA7XG4gIHRvcDogMDtcbiAgd2lkdGg6IDEwMHZ3O1xuICBoZWlnaHQ6IDEwMHZoO1xuICBvdmVyZmxvdzogaGlkZGVuO1xuICBkaXNwbGF5OiBub25lO1xuICBiYWNrZHJvcC1maWx0ZXI6IGJsdXIoNHB4KTtcbiAgYmFja2dyb3VuZDogcmdiYSgwLCAwLCAwLCAwLjUpO1xuXG4gICYuYWN0aXZlIHtcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gIH1cblxuICAmID4gI21lcm1haWQtc3BhY2Uge1xuICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tbGlnaHQpO1xuICAgIGJvcmRlci1yYWRpdXM6IDVweDtcbiAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgdG9wOiA1MCU7XG4gICAgbGVmdDogNTAlO1xuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlKC01MCUsIC01MCUpO1xuICAgIGhlaWdodDogODB2aDtcbiAgICB3aWR0aDogODB2dztcbiAgICBvdmVyZmxvdzogaGlkZGVuO1xuXG4gICAgJiA+IC5tZXJtYWlkLWNvbnRlbnQge1xuICAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgICAgdHJhbnNmb3JtLW9yaWdpbjogMCAwO1xuICAgICAgdHJhbnNpdGlvbjogdHJhbnNmb3JtIDAuMXMgZWFzZTtcbiAgICAgIG92ZXJmbG93OiB2aXNpYmxlO1xuICAgICAgbWluLWhlaWdodDogMjAwcHg7XG4gICAgICBtaW4td2lkdGg6IDIwMHB4O1xuXG4gICAgICBwcmUge1xuICAgICAgICBtYXJnaW46IDA7XG4gICAgICAgIGJvcmRlcjogbm9uZTtcbiAgICAgIH1cblxuICAgICAgc3ZnIHtcbiAgICAgICAgbWF4LXdpZHRoOiBub25lO1xuICAgICAgICBoZWlnaHQ6IGF1dG87XG4gICAgICB9XG4gICAgfVxuXG4gICAgJiA+IC5tZXJtYWlkLWNvbnRyb2xzIHtcbiAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgIGJvdHRvbTogMjBweDtcbiAgICAgIHJpZ2h0OiAyMHB4O1xuICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgIGdhcDogOHB4O1xuICAgICAgcGFkZGluZzogOHB4O1xuICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHQpO1xuICAgICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgIGJvcmRlci1yYWRpdXM6IDZweDtcbiAgICAgIGJveC1zaGFkb3c6IDAgMnB4IDRweCByZ2JhKDAsIDAsIDAsIDAuMSk7XG4gICAgICB6LWluZGV4OiAyO1xuXG4gICAgICAubWVybWFpZC1jb250cm9sLWJ1dHRvbiB7XG4gICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgICAgICB3aWR0aDogMzJweDtcbiAgICAgICAgaGVpZ2h0OiAzMnB4O1xuICAgICAgICBwYWRkaW5nOiAwO1xuICAgICAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodCk7XG4gICAgICAgIGNvbG9yOiB2YXIoLS1kYXJrKTtcbiAgICAgICAgYm9yZGVyLXJhZGl1czogNHB4O1xuICAgICAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgICAgIGZvbnQtc2l6ZTogMTZweDtcbiAgICAgICAgZm9udC1mYW1pbHk6IHZhcigtLWJvZHlGb250KTtcbiAgICAgICAgdHJhbnNpdGlvbjogYWxsIDAuMnMgZWFzZTtcblxuICAgICAgICAmOmhvdmVyIHtcbiAgICAgICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgICB9XG5cbiAgICAgICAgJjphY3RpdmUge1xuICAgICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgxcHgpO1xuICAgICAgICB9XG5cbiAgICAgICAgLy8gU3R5bGUgdGhlIHJlc2V0IGJ1dHRvbiBkaWZmZXJlbnRseVxuICAgICAgICAmOm50aC1jaGlsZCgyKSB7XG4gICAgICAgICAgd2lkdGg6IGF1dG87XG4gICAgICAgICAgcGFkZGluZzogMCAxMnB4O1xuICAgICAgICAgIGZvbnQtc2l6ZTogMTRweDtcbiAgICAgICAgfVxuICAgICAgfVxuICAgIH1cbiAgfVxufVxuIl19 */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><script src="../prescript.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://rajeshb62.github.io/printing-press-wiki/index.xml"/></head><body data-slug="concepts/incunabula"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="..">Printing Press</a></h2><div class="spacer mobile-only"></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>Search</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="Dark mode"><title>Dark mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="Light mode"><title>Light mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="Reader mode"><title>Reader mode</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-28"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>Explorer</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-28" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../concepts/">concepts</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>Incunabula</a></div></nav><h1 class="article-title">Incunabula</h1><p show-comma="true" class="content-meta"><time datetime="2026-05-02T18:30:00.000Z">May 03, 2026</time><span>15 min read</span></p><ul class="tags"><li><a href="../tags/[incunabula" class="internal tag-link">[incunabula</a></li><li><a href="../tags/book-trade" class="internal tag-link">book-trade</a></li><li><a href="../tags/bibliography" class="internal tag-link">bibliography</a></li><li><a href="../tags/mainz" class="internal tag-link">mainz</a></li><li><a href="../tags/typography" class="internal tag-link">typography</a></li><li><a href="../tags/printing-output" class="internal tag-link">printing-output</a></li><li><a href="../tags/survival]" class="internal tag-link">survival]</a></li></ul></div></div><article class="popover-hint"><h1 id="incunabula">Incunabula<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#incunabula" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<p><strong>Incunabula</strong> (singular: <em>incunable</em> or, less correctly, <em>incunabulum</em>; German: <em>Wiegendrucke</em>, literally “cradle-prints”) are books printed in Europe before 1 January 1501 — the infancy, or “swaddling clothes,” of the printing press. The term derives from the Latin <em>incunabula</em>, meaning “cradle” or “swaddling clothes,” and by extension “infancy” or “beginning.”^[raw/articles/john-man-gutenberg-revolution.md] The incunable period spans roughly 1450-1500, from the first experiments in <a href="../entities/mainz" class="internal" data-slug="entities/mainz">mainz</a> with <a href="../concepts/movable-type" class="internal" data-slug="concepts/movable-type">movable-type</a> to the moment when printing had become a mature industry in hundreds of cities across Europe.</p>
+<h2 id="definition-and-origin-of-the-term">Definition and Origin of the Term<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#definition-and-origin-of-the-term" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>The word <em>incunabula</em> was first applied to early printed books by the German physician and bibliographer <strong>Bernhard von Mallinckrodt</strong> in his 1639 pamphlet <em>De ortu et progressu artis typographicae</em> (“On the Rise and Progress of the Art of Typography”). Mallinckrodt used the metaphor of <em>primae typographiae incunabula</em> — the “first cradle-days of printing” — to describe the books produced in the earliest decades after Gutenberg’s invention.^[raw/articles/john-man-gutenberg-revolution.md]</p>
+<p>The conventional cutoff date of 1500 was established by <strong>Johann Saubert</strong> of Nuremberg, who drew up the first catalogue of early printed books and imposed 31 December 1500 as the boundary. The term and the date fell neatly together. “Incunabula are those books printed up to 31 December 1500,” John Man writes. “Other catalogues followed, of other collections; academics and collectors came on board; and today major universities and libraries around the world have their incunabulists. It’s an academic industry.”^[raw/articles/john-man-gutenberg-revolution.md]</p>
+<p>The German equivalent <em>Wiegendrucke</em> (“cradle-prints” or “cradle-press works”) captures the same metaphor. Lorck notes that the books printed before 1500 are designated in the narrower sense as <em>Wiegendrucke</em> or <em>Inkunabeln</em>.^[raw/articles/lorck-handbuch-buchdruckerkunst.md]</p>
+<h2 id="the-incunable-period-c-1450-1500">The Incunable Period (c. 1450-1500)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#the-incunable-period-c-1450-1500" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>The incunable period began with Gutenberg’s first experiments with <a href="../concepts/movable-type" class="internal" data-slug="concepts/movable-type">movable-type</a> in <a href="../entities/mainz" class="internal" data-slug="entities/mainz">mainz</a> around 1450 and ended at the turn of the century, by which time printing had spread to virtually every corner of Europe. The period divides into three rough phases:</p>
+<ol>
+<li>
+<p><strong>The experimental phase (c. 1450-1462)</strong>: Printing concentrated in Mainz — Gutenberg, Fust, and Schoffer. The <a href="../concepts/gutenberg-bible" class="internal" data-slug="concepts/gutenberg-bible">gutenberg-bible</a> (c. 1455) and the 1457 <a href="../entities/mainz" class="internal alias" data-slug="entities/mainz">Mainz</a> Psalter are the landmarks. Printing was a closely guarded trade secret, and practitioners swore oaths of secrecy.</p>
+</li>
+<li>
+<p><strong>The diaspora (1462-1475)</strong>: After the sack of Mainz in 1462, journeymen printers scattered across Europe, carrying their skills and type to Cologne, Basel, Augsburg, Nuremberg, Strasbourg, Rome, Venice, Paris, and beyond. By 1470, presses were active in more than a dozen German cities, and printing had reached Italy, France, the Netherlands, Switzerland, Spain, and England.</p>
+</li>
+<li>
+<p><strong>The commercial explosion (1475-1500)</strong>: Printing became a fully commercial enterprise. Major publishing houses emerged — Koberger in Nuremberg, Aldus Manutius in Venice, Jenson in Venice, Froben in Basel. Competition drove innovation in format, typeface design, and book layout.^[raw/articles/lorck-handbuch-buchdruckerkunst.md]</p>
+</li>
+</ol>
+<p>The <a href="../concepts/spread-of-printing" class="internal" data-slug="concepts/spread-of-printing">spread-of-printing</a> during this half-century was astonishing: from a single press in Mainz to over 1,100 printing shops in roughly 280 locations across Europe.</p>
+<h2 id="statistics-and-scale">Statistics and Scale<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#statistics-and-scale" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Modern bibliographic projects have given us a reasonably precise picture of incunable production:</p>
+<ul>
+<li><strong>Total surviving editions</strong>: The Incunabula Short-Title Catalogue (ISTC), coordinated by the British Library, lists almost 30,000 editions as of the early 2000s, with numbers still rising as new copies are discovered.^[raw/articles/john-man-gutenberg-revolution.md]</li>
+<li><strong>Printing locations</strong>: Approximately 280 cities and towns hosted presses during the incunable period.</li>
+<li><strong>Active presses</strong>: Over 1,100 identifiable printers and publishers.</li>
+<li><strong>Print runs</strong>: Typically 200-500 copies per edition, though some smaller works (indulgences, broadsides) ran to 1,000 or more.^[raw/articles/john-man-gutenberg-revolution.md]</li>
+<li><strong>Total books produced</strong>: An estimated 15-20 million individual volumes by 1500.^[raw/articles/john-man-gutenberg-revolution.md]</li>
+<li><strong>Languages</strong>: Latin dominated (roughly 77% of editions), followed by German, Italian, French, Dutch, Spanish, English, and others.</li>
+<li><strong>Subjects</strong>: Religion (especially Bibles, missals, breviaries, and patristic works) made up roughly 45% of output. Law, literature, classical authors, medicine, and scientific works accounted for the remainder.^[raw/articles/lorck-handbuch-buchdruckerkunst.md]</li>
+</ul>
+<p>The ISTC draws on 96 contributing libraries in 16 countries, a collaborative effort that Man compares to “some sort of literary human genome project.”^[raw/articles/john-man-gutenberg-revolution.md]</p>
+<h3 id="survival-bias-the-lost-half-of-early-printing">Survival Bias: The Lost Half of Early Printing<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#survival-bias-the-lost-half-of-early-printing" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>The 30,000 surviving incunable editions represent a fraction of what was actually printed. The sources describe the scale of loss explicitly, and the pattern is not random — certain categories of printed work survived far better than others.</p>
+<p><strong>School texts</strong> were printed in the largest runs but survive in the smallest numbers. The commonest school grammar, the <em>Donatus</em> (Aelius Donatus’s <em>Ars Minor</em>), was printed by Gutenberg himself, probably before the Bible. John Man notes that it survives only as “odd pages used for the binding of later publications.” De Vinne describes how these cheap schoolbooks were “read to pieces.” No complete copy of any Gutenberg Donatus exists — only fragments reused as binder’s scrap.^[raw/articles/john-man-gutenberg-revolution.md]^[raw/articles/de-vinne-invention-of-printing.md]</p>
+<p><strong>Indulgences</strong> — the fill-in-the-blank forms that were among the first printed products — had enormous print runs. Gutenberg alone is estimated to have printed thousands of copies of the 1454-1455 indulgence for Pope Callixtus III. Yet only about fifty copies survive across all European libraries.^[raw/articles/john-man-gutenberg-revolution.md]</p>
+<p><strong>Pamphlets, broadsides, and almanacs</strong> were printed in quantities that dwarfed book editions, but survival was a matter of chance: they were posted on walls, pinned to boards, carried in pockets, and thrown away when the information became obsolete. Lorck notes that the earliest political pamphlet — the 1462 Diether manifesto — survives in a single copy.^[raw/articles/lorck-handbuch-buchdruckerkunst.md]^[raw/articles/pamphlets-and-ephemeral-printing.md]</p>
+<p><strong>The survival hierarchy:</strong> Large folio books — Bibles, law tomes, liturgical works — survive at the highest rates. They were expensive, bound in sturdy leather, chained in libraries, and treated with respect. At the other extreme, single-sheet items, cheap schoolbooks, and ephemera survive at rates below one percent. The ISTC count is skewed toward the expensive, the institutional, and the durable.</p>
+<p>This means our picture of incunable output is systematically distorted. The 45% religious figure overrepresents liturgical books and underrepresents school texts and vernacular ephemera. The “typical” incunable was probably a cheap school primer, not a Gutenberg Bible.</p>
+<h3 id="the-quality-spectrum">The Quality Spectrum<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#the-quality-spectrum" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Incunable printing spanned a wide quality-and-price spectrum, from luxury vellum presentation copies to cheap jobbing work on the cheapest available paper.^[raw/articles/john-man-gutenberg-revolution.md]^[raw/articles/de-vinne-invention-of-printing.md]</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Tier</th><th>Format</th><th>Typical Run</th><th>Material</th><th>Survival</th><th>Examples</th></tr></thead><tbody><tr><td>Luxury</td><td>Folio</td><td>30-40</td><td>Vellum</td><td>High</td><td>Gutenberg Bible vellum copies, Mainz Psalter</td></tr><tr><td>Prestige</td><td>Folio</td><td>200-300</td><td>Good paper (“carta reale”)</td><td>High</td><td>Nuremberg Chronicle, law tomes</td></tr><tr><td>Standard</td><td>Folio/Quarto</td><td>300-500</td><td>Standard paper</td><td>Moderate</td><td>Classical editions, patristic works</td></tr><tr><td>Portable</td><td>Octavo</td><td>500-1,000</td><td>Thin good paper</td><td>Moderate</td><td>Aldine <em>Libri Portatiles</em></td></tr><tr><td>Cheap</td><td>Quarto/Octavo</td><td>500-1,000</td><td>Cheap paper</td><td>Low</td><td>School texts, vernacular romances</td></tr><tr><td>Ephemeral</td><td>Single sheet</td><td>1,000+</td><td>Cheap paper</td><td>Very low</td><td>Indulgences, broadsides, almanacs, playing cards</td></tr></tbody></table></div>
+<p>Each tier served a different buyer and followed different economics. The luxury tier required enormous upfront capital (the Gutenberg Bible’s vellum alone cost 300 gulden — roughly a year’s wages for a skilled craftsman). The ephemeral tier made money through volume and speed, but the product was consumed and discarded.^[raw/articles/john-man-gutenberg-revolution.md]</p>
+<h3 id="format-as-market-positioning">Format as Market Positioning<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#format-as-market-positioning" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Format was not merely a practical choice — it encoded market positioning. Folio was the format of institutional authority: Bibles, law books, and liturgical works that sat on lecterns and library shelves. Quarto was for serious but portable works. Octavo was Aldus’s explicit market intervention — a deliberate effort to create a new category of reader: the travelling scholar, the student, the gentleman who wanted a personal library. As Lowry documents, the Aldine octavos (c. 1501 onward) were priced at 1.5 lire mocenighe per copy (about 0.234 ducats) — still not pocket change, but radically cheaper than the folio Aristotle at 11 ducats.^[raw/articles/lowry-world-of-aldus-manutius.md]</p>
+<p>Cologne printers pioneered the development of smaller formats for practical books, and Lorck credits the city with introducing “smaller typefaces and formats” alongside signatures and pagination. The format followed the intended buyer: large for institutions, small for individuals.^[raw/articles/lorck-handbuch-buchdruckerkunst.md]</p>
+<h2 id="physical-characteristics">Physical Characteristics<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#physical-characteristics" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Incunabula are transitional objects — books that look, in many respects, like manuscripts, yet are produced by mechanical means. This hybrid quality pervades every aspect of their construction.</p>
+<h3 id="no-title-pages">No Title Pages<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#no-title-pages" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>The earliest incunabula have no title page. A book opened directly with the text, beginning with an <strong>incipit</strong> (Latin: “here begins”) — a formal opening phrase naming the work and author. Information about printer, place, and date, if present at all, appeared at the end in a <strong>colophon</strong> (from Greek <em>kolophon</em>, “summit” or “finishing touch”).^[raw/articles/de-vinne-invention-of-printing.md]</p>
+<p>The first printed colophon appeared in the <strong>1457 Mainz Psalter</strong>, printed by <a href="../entities/johann-gutenberg" class="internal alias" data-slug="entities/johann-gutenberg">Johann Fust</a> and <a href="../entities/peter-schoeffer" class="internal alias" data-slug="entities/peter-schoeffer">Peter Schoffer</a>. It reads:</p>
+<blockquote>
+<p><em>Presens psalmorum codex venustate capitalium decoratus Rubricationibusque sufficienter est distinctus, Adinventione artificiosa imprimendi ac characterizandi absque calami ulla exaratione sic effigiatus, Et ad eusebiam dei industrie est consummatus, Per Johannem Fust civem Maguntinum, et Petrum Schoeffer de Gernsheim, Anno domini Millesimo_CCCC_LVII, In vigilia assumptionis.</em>
+(“This present book of the Psalms, decorated with beautiful capitals and clearly marked with rubrics, has been thus shaped by the artificial invention of printing and making characters without any use of the pen, and has been completed to the service of God through the industry of Johann Fust, citizen of Mainz, and Peter Schoffer of Gernsheim, in the year of our Lord 1457, on the vigil of the Assumption.“)^[raw/articles/lorck-handbuch-buchdruckerkunst.md]</p>
+</blockquote>
+<p>This was the first printed book to name its printers, its place of printing, and its date — the birth of the modern imprint.</p>
+<h3 id="the-evolution-of-the-title-page">The Evolution of the Title Page<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#the-evolution-of-the-title-page" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>The transition from incipit to title page was gradual. The first true printed title page is generally credited to <strong>Erhard Ratdolt</strong> of Venice, who in 1478 printed a separate title leaf for his edition of a sermon collection. Ratdolt’s title page featured the book’s title, the printer’s name, his printer’s mark, and the imprint — all on a dedicated first page, separate from the text.^[raw/articles/de-vinne-invention-of-printing.md]</p>
+<p>After Ratdolt, title pages became increasingly common. By the 1490s, most printed books included at least a label-title on the first recto, though the fully decorated title page with elaborate woodcut borders and architectural frames was largely a 16th-century development.</p>
+<h3 id="format">Format<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#format" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Incunabula were printed in three main formats, determined by how many times a printed sheet was folded:^[raw/articles/lorck-handbuch-buchdruckerkunst.md]</p>
+<ul>
+<li><strong>Folio</strong> (one fold, two leaves, four pages): The prestige format, used for Bibles, law books, and liturgical works. The <a href="../concepts/gutenberg-bible" class="internal" data-slug="concepts/gutenberg-bible">gutenberg-bible</a> is a folio.</li>
+<li><strong>Quarto</strong> (two folds, four leaves, eight pages): The standard format for most serious non-liturgical works.</li>
+<li><strong>Octavo</strong> (three folds, eight leaves, sixteen pages): A compact, portable format. <strong>Aldus Manutius</strong> of Venice pioneered the octavo format in the 1490s for his series of classical texts, the <em>Libri Portatiles</em> (“portable books”), which were small enough to be carried in a pocket or saddlebag. The Aldine octavo was revolutionary — it made learning portable and helped create the modern concept of the personal library.^[raw/articles/lorck-handbuch-buchdruckerkunst.md]</li>
+</ul>
+<p>Cologne was noted in the early period as a center for innovation in smaller formats.^[raw/articles/lorck-handbuch-buchdruckerkunst.md]</p>
+<h3 id="no-pagination-but-signatures">No Pagination, but Signatures<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#no-pagination-but-signatures" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Early incunabula were not paginated (numbered page by page) — the concept of page numbers was a later development. Instead, printers used <strong>signatures</strong>: letters of the alphabet printed at the bottom of each gathering (quire) to guide the binder in collating the correct order of leaves. The first known use of printed signatures is found in the works of Johann Koelhoff the Elder of Cologne (1471-1472), though some scholars attribute the innovation to Peter Schoffer.^[raw/articles/lorck-handbuch-buchdruckerkunst.md]</p>
+<p>Cologne is particularly noted as the source of many typographical improvements, including “the use of signatures, pagination, the proper book-title and column titles, and smaller typefaces and formats.”^[raw/articles/lorck-handbuch-buchdruckerkunst.md]</p>
+<h3 id="rubrication-by-hand">Rubrication by Hand<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#rubrication-by-hand" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Until the early 1470s, incunabula were printed in black ink only. Red headings (rubrication), initial capitals, paragraph marks, and decorative elements were added by hand after printing — just as in manuscripts. The rubricator followed a printed guide (often the <em>Directorium</em> or printer’s instructions) to know which letters to color and where to place red headings.^[raw/articles/de-vinne-invention-of-printing.md]</p>
+<p>Fust and Schoffer’s 1457 Mainz Psalter was a notable exception: it was the first book to print some of its initial letters in two colors (red and blue) directly from the press, using a sophisticated technique of piecemeal assembly and multiple impressions. But this remained exceptional rather than standard.</p>
+<h3 id="the-physical-transformation-timeline">The Physical Transformation Timeline<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#the-physical-transformation-timeline" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>The printed book evolved rapidly across the incunable period:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Feature</th><th>Introduced</th><th>Where</th><th>Milestone</th></tr></thead><tbody><tr><td>Colophon naming printer/place/date</td><td>1457</td><td>Mainz</td><td>Fust &amp; Schoffer, Mainz Psalter</td></tr><tr><td>Two-colour printing from type</td><td>1457</td><td>Mainz</td><td>Mainz Psalter</td></tr><tr><td>Signatures for binders</td><td>c. 1471</td><td>Cologne</td><td>Koelhoff the Elder</td></tr><tr><td>Separate title page</td><td>1478</td><td>Venice</td><td>Erhard Ratdolt</td></tr><tr><td>First printed title-border</td><td>1480</td><td>Venice</td><td>Ratdolt</td></tr><tr><td>Pagination</td><td>c. 1480s</td><td>Various</td><td>Gradual adoption</td></tr><tr><td>Printed illustrations (woodcut)</td><td>1461</td><td>Bamberg</td><td>Pfister’s <em>Der Edelstein</em></td></tr><tr><td>Copperplate illustrations</td><td>1478</td><td>Rome</td><td>Sweynheym’s Ptolemy maps</td></tr></tbody></table></div>
+<p>By 1500 the printed book had become its own kind of object, no longer imitating the manuscript.</p>
+<h2 id="typefaces-from-textura-to-roman-and-fraktur">Typefaces: From Textura to Roman and Fraktur<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#typefaces-from-textura-to-roman-and-fraktur" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>The earliest incunabula were printed in <strong>Gothic</strong> or <strong>Textura</strong> typefaces — the Blackletter scripts that imitated the formal liturgical handwriting of German scribes. <a href="../concepts/early-typefaces" class="internal alias" data-slug="concepts/early-typefaces">Gutenberg’s Textura</a> for the Bible was dense, black, and condensed, with few hair-lines, designed to match or exceed the beauty of manuscript production.^[raw/articles/john-man-gutenberg-revolution.md]</p>
+<p><strong>Roman type</strong> — based on the clear, rounded scripts of Italian humanist scribes — was introduced in the 1460s and 1470s by printers like Sweynheim and Pannartz (who began printing in Subiaco, Italy, in 1465 with a semi-Gothic type and switched to Roman), and perfected by Nicolas Jenson in Venice (1470). The Roman letter gradually displaced Gothic in Italy, France, Spain, and eventually England, though Germany remained loyal to Blackletter forms.^[raw/articles/lorck-handbuch-buchdruckerkunst.md]</p>
+<p>The German specialty of <strong>Fraktur</strong> type — a more elaborate and ornamental Blackletter — was introduced by Hans Schonsperger at the request of Emperor Maximilian I for the <em>Theuerdank</em> (1513), an allegorical poem celebrating Maximilian’s life. Fraktur remained the standard typeface for German-language printing well into the 20th century.^[raw/articles/lorck-handbuch-buchdruckerkunst.md]</p>
+<h2 id="language-and-subject-distribution">Language and Subject Distribution<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#language-and-subject-distribution" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>The breakdown of incunable output by language reflects the structure of the reading public:</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Language</th><th>Share</th><th>Notes</th></tr></thead><tbody><tr><td>Latin</td><td>~77%</td><td>Church, university, law — the three biggest markets</td></tr><tr><td>German</td><td>~7%</td><td>Largest vernacular; strong in Reformation territory</td></tr><tr><td>Italian</td><td>~5%</td><td>Driven by Venetian publishing</td></tr><tr><td>French</td><td>~3%</td><td>Paris and Lyon</td></tr><tr><td>Dutch</td><td>~1%</td><td>Low Countries</td></tr><tr><td>Spanish</td><td>~1%</td><td>Late to receive printing</td></tr><tr><td>English</td><td>~1%</td><td>Caxton and de Worde</td></tr><tr><td>Other</td><td>~5%</td><td>Mixed vernaculars, Hebrew, Greek</td></tr></tbody></table></div>
+<p>The vernacular share was highest in ephemera (broadsides, pamphlets, almanacs) and lowest in liturgy and law — the most profitable categories. This means that in terms of total value, Latin output dwarfed vernacular output by more than the count suggests.^[raw/articles/putnam-books-and-their-makers-vol1.md]</p>
+<p>Subject distribution by the sources:</p>
+<ul>
+<li><strong>Religion</strong>: ~45% — Bibles, missals, breviaries, patristics, sermons, devotional works. The stable core of the market.</li>
+<li><strong>Law</strong>: ~10-15% — Canon and civil law, commentary. The most profitable genre per edition.^[raw/articles/lorck-handbuch-buchdruckerkunst.md]</li>
+<li><strong>Classical literature</strong>: ~10% — Humanist editions of Latin and Greek authors. Prestige publishing.</li>
+<li><strong>School texts</strong>: ~8% — Donatus, Alexander de Villa Dei’s <em>Doctrinale</em>, other grammars. Largest actual run but lowest survival.^[raw/articles/de-vinne-invention-of-printing.md]</li>
+<li><strong>Medicine and science</strong>: ~5% — Galen, Hippocrates, Pliny, Regiomontanus, astronomical works.</li>
+<li><strong>History and chronicles</strong>: ~5% — Schedel’s Nuremberg Chronicle, world histories.</li>
+<li><strong>Vernacular literature</strong>: ~5% — Romances, folk tales, poetry.</li>
+<li><strong>Other</strong>: ~7% — Philosophy, music, geography, miscellaneous.^[raw/articles/lorck-handbuch-buchdruckerkunst.md]</li>
+</ul>
+<h2 id="the-incunable-as-a-transitional-object">The Incunable as a Transitional Object<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#the-incunable-as-a-transitional-object" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Incunabula are not fully modern books. They are “cradle-prints” — objects caught between two worlds: the scribal and the mechanical. This duality is sometimes described as <strong>incunable consciousness</strong>: the awareness that the first printed books were designed to look like manuscripts because that is what readers expected. The absence of a title page, the use of incipits and colophons, the space left for hand-rubrication, the imitation of scribal abbreviations and ligatures — all of these features reflect a deliberate effort to make the new technology invisible.^[raw/articles/john-man-gutenberg-revolution.md]</p>
+<p>As John Man puts it: “Gutenberg understood that his market — churches, princes, and monastic libraries — would only accept a printed Bible that matched or exceeded the beauty of manuscript copies.”^[raw/articles/john-man-gutenberg-revolution.md]</p>
+<p>By 1500, however, the transition was largely complete. Printed books had developed their own conventions — title pages, pagination, consistent typography, systematic illustration — and the manuscript model receded into nostalgia.</p>
+<h2 id="famous-collectors-and-scholarship">Famous Collectors and Scholarship<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#famous-collectors-and-scholarship" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Incunabula have been passionately collected since the 17th century, when bibliographers and antiquarians first recognized their historical importance. Notable collectors and catalogs include:</p>
+<ul>
+<li><strong>Bernhard von Mallinckrodt</strong> (1639) — coined the term <em>incunabula</em>.</li>
+<li><strong>Johann Saubert</strong> (c. 1640) — first catalog of incunabula; imposed the 1500 cutoff.</li>
+<li><strong>Michael Maittaire</strong>, <em>Annales typographici</em> (1719-1733) — the first systematic bibliography of incunabula. His work covers books “ab artis inventae origine ad Annum MD.”^[raw/articles/lorck-handbuch-buchdruckerkunst.md]</li>
+<li><strong>Georg Wolfgang Panzer</strong>, <em>Annales typographici</em> (11 vols., 1793-1803).</li>
+<li><strong>Ludwig Hain</strong>, <em>Repertorium Bibliographicum</em> (1826-1838) — the foundational reference work, still used by incunabulists.^[raw/articles/lorck-handbuch-buchdruckerkunst.md]</li>
+<li><strong>Jacques Charles Brunet</strong>, <em>Manuel du libraire et de l’amateur de livres</em> (5th ed., 1860).</li>
+<li><strong>J. G. Th. Graesse</strong>, <em>Trésor de livres rares et précieux</em> (1859).</li>
+<li><strong>The Incunabula Short-Title Catalogue (ISTC)</strong> — modern digital project based at the British Library, listing nearly 30,000 editions.</li>
+<li><strong>Gesamtkatalog der Wiegendrucke (GW)</strong> — German project begun in 1903, still ongoing, aiming to catalog all incunabula comprehensively.</li>
+</ul>
+<p>Famous private collectors include <strong>Sir Thomas Grenville</strong> (whose collection is now in the British Library), <strong>Henry Huth</strong>, <strong>John Pierpont Morgan</strong> (the Morgan Library &amp; Museum holds one of the finest incunabula collections in the world), and <strong>Otto Schafer</strong> (whose collection is now in the Otto Schafer Museum, Schweinfurt).</p>
+<h2 id="significance">Significance<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#significance" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>The incunable period is the decisive half-century in the history of the book. It transformed printing from a local curiosity into a pan-European industry. It fixed the typographic conventions — format, typeface, layout, title page, colophon — that would govern book production for centuries. And it laid the groundwork for every subsequent revolution in communication, from the Reformation broadside to the scientific journal to the modern paperback.</p>
+<p>As Lorck summarizes it: “Die bis zum Jahr 1500 erschienenen Werke bezeichnet man im engeren Sinn als Wiegendrucke, Inkunabeln” — the works that appeared up to the year 1500 are, in the narrower sense, designated as cradle-prints, incunabula.^[raw/articles/lorck-handbuch-buchdruckerkunst.md] They are the swaddling clothes of a revolution that never stopped growing.</p>
+<h2 id="see-also">See Also<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#see-also" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li><a href="../entities/johann-gutenberg" class="internal" data-slug="entities/johann-gutenberg">johann-gutenberg</a></li>
+<li><a href="../concepts/gutenberg-bible" class="internal" data-slug="concepts/gutenberg-bible">gutenberg-bible</a></li>
+<li><a href="../concepts/movable-type" class="internal" data-slug="concepts/movable-type">movable-type</a></li>
+<li><a href="../concepts/early-typefaces" class="internal" data-slug="concepts/early-typefaces">early-typefaces</a></li>
+<li><a href="../concepts/spectrum-of-printed-output" class="internal" data-slug="concepts/spectrum-of-printed-output">spectrum-of-printed-output</a> — the full range of what came off early presses, organized by market tier</li>
+<li><a href="../concepts/pamphlets-and-ephemeral-printing" class="internal" data-slug="concepts/pamphlets-and-ephemeral-printing">pamphlets-and-ephemeral-printing</a> — the ephemeral end of the spectrum</li>
+<li><a href="../entities/mainz" class="internal" data-slug="entities/mainz">mainz</a></li>
+<li><a href="../concepts/spread-of-printing" class="internal" data-slug="concepts/spread-of-printing">spread-of-printing</a></li>
+<li><a href="../concepts/block-printing" class="internal" data-slug="concepts/block-printing">block-printing</a></li>
+</ul></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="toc desktop-only"><button type="button" class="toc-header" aria-controls="toc-11" aria-expanded="true"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul id="list-1" class="toc-content overflow"><li class="depth-0"><a href="#incunabula" data-for="incunabula">Incunabula</a></li><li class="depth-1"><a href="#definition-and-origin-of-the-term" data-for="definition-and-origin-of-the-term">Definition and Origin of the Term</a></li><li class="depth-1"><a href="#the-incunable-period-c-1450-1500" data-for="the-incunable-period-c-1450-1500">The Incunable Period (c. 1450-1500)</a></li><li class="depth-1"><a href="#statistics-and-scale" data-for="statistics-and-scale">Statistics and Scale</a></li><li class="depth-2"><a href="#survival-bias-the-lost-half-of-early-printing" data-for="survival-bias-the-lost-half-of-early-printing">Survival Bias: The Lost Half of Early Printing</a></li><li class="depth-2"><a href="#the-quality-spectrum" data-for="the-quality-spectrum">The Quality Spectrum</a></li><li class="depth-2"><a href="#format-as-market-positioning" data-for="format-as-market-positioning">Format as Market Positioning</a></li><li class="depth-1"><a href="#physical-characteristics" data-for="physical-characteristics">Physical Characteristics</a></li><li class="depth-2"><a href="#no-title-pages" data-for="no-title-pages">No Title Pages</a></li><li class="depth-2"><a href="#the-evolution-of-the-title-page" data-for="the-evolution-of-the-title-page">The Evolution of the Title Page</a></li><li class="depth-2"><a href="#format" data-for="format">Format</a></li><li class="depth-2"><a href="#no-pagination-but-signatures" data-for="no-pagination-but-signatures">No Pagination, but Signatures</a></li><li class="depth-2"><a href="#rubrication-by-hand" data-for="rubrication-by-hand">Rubrication by Hand</a></li><li class="depth-2"><a href="#the-physical-transformation-timeline" data-for="the-physical-transformation-timeline">The Physical Transformation Timeline</a></li><li class="depth-1"><a href="#typefaces-from-textura-to-roman-and-fraktur" data-for="typefaces-from-textura-to-roman-and-fraktur">Typefaces: From Textura to Roman and Fraktur</a></li><li class="depth-1"><a href="#language-and-subject-distribution" data-for="language-and-subject-distribution">Language and Subject Distribution</a></li><li class="depth-1"><a href="#the-incunable-as-a-transitional-object" data-for="the-incunable-as-a-transitional-object">The Incunable as a Transitional Object</a></li><li class="depth-1"><a href="#famous-collectors-and-scholarship" data-for="famous-collectors-and-scholarship">Famous Collectors and Scholarship</a></li><li class="depth-1"><a href="#significance" data-for="significance">Significance</a></li><li class="depth-1"><a href="#see-also" data-for="see-also">See Also</a></li><li class="overflow-end"></li></ul></div><div class="backlinks"><h3>Backlinks</h3><ul id="list-2" class="overflow"><li><a href="../concepts/block-printing" class="internal">Block Printing (Xylography)</a></li><li><a href="../concepts/book-trade" class="internal">Book Trade</a></li><li><a href="../concepts/censorship-of-the-press" class="internal">Censorship of the Press</a></li><li><a href="../concepts/early-printers-tools-and-techniques" class="internal">Early Printers' Tools and Techniques</a></li><li><a href="../concepts/early-typefaces" class="internal">Early Typefaces</a></li><li><a href="../concepts/gutenberg-bible" class="internal">Gutenberg Bible</a></li><li><a href="../concepts/manuscript-culture" class="internal">Manuscript Culture and the Book before Print</a></li><li><a href="../concepts/manuscript-to-printed-book-trade" class="internal">From Manuscript to Printed-Book Trade</a></li><li><a href="../concepts/movable-type" class="internal">Movable Type</a></li><li><a href="../concepts/pamphlets-and-ephemeral-printing" class="internal">Pamphlets and Ephemeral Printing</a></li><li><a href="../concepts/paper-in-europe" class="internal">Paper and the Introduction of Paper in Europe</a></li><li><a href="../concepts/print-runs-and-pricing" class="internal">Print Runs and Pricing</a></li><li><a href="../concepts/printing-economics" class="internal">Printing Economics</a></li><li><a href="../concepts/printing-revolution" class="internal">Printing Revolution</a></li><li><a href="../concepts/reformation" class="internal">Reformation</a></li><li><a href="../concepts/seventeenth-century-printing" class="internal">Seventeenth-Century Printing</a></li><li><a href="../concepts/sixteenth-century-printing" class="internal">Sixteenth-Century Printing</a></li><li><a href="../concepts/spectrum-of-printed-output" class="internal">Spectrum of Printed Output</a></li><li><a href="../concepts/spread-of-printing" class="internal">Spread of Printing</a></li><li><a href="../concepts/the-indulgence-trade" class="internal">The Indulgence Trade</a></li><li><a href="../concepts/the-printing-press" class="internal">The Printing Press</a></li><li><a href="../entities/aldus-manutius" class="internal">Aldus Manutius</a></li><li><a href="../entities/anton-koberger" class="internal">Anton Koberger</a></li><li><a href="../entities/christopher-plantin" class="internal">Plantin-Moretus Family</a></li><li><a href="../entities/jodocus-badius-ascensius" class="internal">Jodocus Badius Ascensius</a></li><li><a href="../entities/johann-froben" class="internal">Johann Froben</a></li><li><a href="../entities/johann-gutenberg" class="internal">Johann Gutenberg</a></li><li><a href="../entities/johannes-fust" class="internal">Johannes Fust</a></li><li><a href="../entities/mainz" class="internal">Mainz</a></li><li><a href="../entities/nicolas-jenson" class="internal">Nicolas Jenson</a></li><li><a href="../entities/peter-schoeffer" class="internal">Peter Schöffer</a></li><li><a href="../entities/strasbourg" class="internal">Strasbourg</a></li><li><a href="../entities/venice" class="internal">Venice</a></li><li><a href="../entities/william-caxton" class="internal">William Caxton</a></li><li><a href="../entities/wynkyn-de-worde" class="internal">Wynkyn de Worde</a></li><li><a href="../" class="internal">index</a></li><li><a href="../primary-sources/putnam-books-and-their-makers-vol1" class="internal">Books and their Makers during the Middle Ages, Vol. I (Putnam)</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.2</a> © 2026</p><ul><li><a href="https://github.com/rajeshb62/printing-press-wiki">Source Repo</a></li></ul></footer></div></div></body><script type="application/javascript" data-persist="true">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module" data-persist="true">function E(a,e){if(!a)return;function t(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function n(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}a?.addEventListener("click",t),window.addCleanup(()=>a?.removeEventListener("click",t)),document.addEventListener("keydown",n),window.addCleanup(()=>document.removeEventListener("keydown",n))}function f(a){for(;a.firstChild;)a.removeChild(a.firstChild)}var m=class{constructor(e,t){this.container=e;this.content=t;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),t=this.onMouseMove.bind(this),n=this.onMouseUp.bind(this),o=this.onTouchStart.bind(this),r=this.onTouchMove.bind(this),i=this.onTouchEnd.bind(this),s=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",t),document.addEventListener("mouseup",n),this.container.addEventListener("touchstart",o,{passive:!1}),document.addEventListener("touchmove",r,{passive:!1}),document.addEventListener("touchend",i),window.addEventListener("resize",s),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",t),()=>document.removeEventListener("mouseup",n),()=>this.container.removeEventListener("touchstart",o),()=>document.removeEventListener("touchmove",r),()=>document.removeEventListener("touchend",i),()=>window.removeEventListener("resize",s))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let t=this.createButton("+",()=>this.zoom(.1)),n=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(n),e.appendChild(o),e.appendChild(t),this.container.appendChild(e)}createButton(e,t){let n=document.createElement("button");return n.textContent=e,n.className="mermaid-control-button",n.addEventListener("click",t),window.addCleanup(()=>n.removeEventListener("click",t)),n}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}onTouchStart(e){if(e.touches.length!==1)return;this.isDragging=!0;let t=e.touches[0];this.startPan={x:t.clientX-this.currentPan.x,y:t.clientY-this.currentPan.y}}onTouchMove(e){if(!this.isDragging||e.touches.length!==1)return;e.preventDefault();let t=e.touches[0];this.currentPan={x:t.clientX-this.startPan.x,y:t.clientY-this.startPan.y},this.updateTransform()}onTouchEnd(){this.isDragging=!1}zoom(e){let t=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),n=this.content.getBoundingClientRect(),o=n.width/2,r=n.height/2,i=t-this.scale;this.currentPan.x-=o*i,this.currentPan.y-=r*i,this.scale=t,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){let t=this.content.querySelector("svg").getBoundingClientRect(),n=t.width/this.scale,o=t.height/this.scale;this.scale=1,this.currentPan={x:(this.container.clientWidth-n)/2,y:(this.container.clientHeight-o)/2},this.updateTransform()}},T=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],y;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;y||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let t=y.default,n=new WeakMap;for(let r of e)n.set(r,r.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let c=n.get(s);c&&(s.innerHTML=c)}let r=T.reduce((s,c)=>(s[c]=window.getComputedStyle(document.documentElement).getPropertyValue(c),s),{}),i=document.documentElement.getAttribute("saved-theme")==="dark";t.initialize({startOnLoad:!1,securityLevel:"loose",theme:i?"dark":"base",themeVariables:{fontFamily:r["--codeFont"],primaryColor:r["--light"],primaryTextColor:r["--darkgray"],primaryBorderColor:r["--tertiary"],lineColor:r["--darkgray"],secondaryColor:r["--secondary"],tertiaryColor:r["--tertiary"],clusterBkg:r["--light"],edgeLabelBackground:r["--highlight"]}}),await t.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let r=0;r<e.length;r++){let v=function(){let g=l.querySelector("#mermaid-space"),h=l.querySelector(".mermaid-content");if(!h)return;f(h);let w=i.querySelector("svg").cloneNode(!0);h.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new m(g,h)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},i=e[r],s=i.parentElement,c=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(c),L=c.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),E(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script src="../postscript.js" type="module" data-persist="true"></script></html>
